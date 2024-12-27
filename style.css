@@ -1,0 +1,666 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    font-family: "Bai Jamjuree", sans-serif;
+}
+
+
+body p {
+    font-size: 16px;
+    line-height: 27px;
+    padding-left: 1px;
+    padding-right: 1px;
+}
+
+header {
+    background-image: url(images/bg-header-mobile.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+header div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+
+header img[alt="logo"] {
+    padding-top: 120px;
+}
+
+
+header div h1 {
+    text-align: center;
+    font-weight: 550;
+    color: hsl(210, 10%, 33%);
+    margin-top: 55px;
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+
+
+
+#hero-section {
+    margin-left: 26px;
+    margin-right: 26px;
+    text-align: center;
+    margin-bottom: 170px;
+}
+
+
+
+#hero-section p {
+    color: hsl(201, 11%, 66%);
+    font-weight: 400;
+}
+
+
+
+#hero-section nav {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 22px;
+}
+
+
+
+#hero-section nav button {
+    font-size: 17px;
+    border-radius: 90px;
+    padding-top: 17px;
+    padding-bottom: 13px;
+    color: rgba(255, 255, 255, 0.773);
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+
+
+.ios-button {
+    border: none;
+    border-bottom: 3px solid #309582;
+    background-color: hsl(171, 66%, 44%);
+    box-shadow: 1px 17px 19px -7px rgba(38, 186, 164, 0.32);
+}
+
+
+
+.mac-button {
+    border: none;
+    border-bottom: 3px solid hsl(233, 82%, 59%);
+    background-color: hsl(233, 100%, 69%);
+    box-shadow: 1px 17px 19px -7px rgba(97, 115, 255, 0.32);
+}
+
+
+
+main {
+    margin-left: 26px;
+    margin-right: 26px;
+    text-align: center;
+}
+
+
+
+#tracks h1 {
+    font-size: 26px;
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+    margin-bottom: 23px;
+}
+
+
+#tracks p {
+    font-weight: 400;
+    color: hsl(201, 11%, 66%);
+}
+
+
+#tracks nav img {
+    width: 100%;
+    margin-top: 70px;
+    margin-bottom: 55px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+
+#tracks article h1 {
+    margin-bottom: 15px;
+    font-size: 23px;
+}
+
+
+
+#tracks article p {
+    margin-bottom: 50px;
+}
+
+
+
+#tracks {
+    margin-bottom: 190px;
+}
+
+
+
+#features div h1 {
+    font-size: 26px;
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+    margin-bottom: 23px;
+}
+
+
+#features div p {
+    font-weight: 400;
+    color: hsl(201, 11%, 66%);
+}
+
+
+
+#features nav img {
+    width: 100%;
+    margin-top: 63px;
+    margin-bottom: 100px;
+}
+
+#features aside h1 {
+    margin-bottom: 13px;
+    font-size: 24px;
+}
+
+#features aside div {
+    margin-bottom: 60px;
+}
+
+#features article h1 {
+    margin-bottom: 13px;
+    font-size: 24px;
+}
+
+
+#features article div {
+    margin-bottom: 60px;
+}
+
+
+img[alt="blacklist"] {
+    margin-top: 30px;
+}
+
+
+
+#features article img {
+    padding-bottom: 38px;
+}
+
+
+
+#features {
+    margin-bottom: 150px;
+}
+
+
+footer {
+    text-align: center;
+}
+
+#logos nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+}
+
+
+
+#logos {
+    margin-bottom: 180px;
+}
+
+
+#logos img {
+    width: 130px;
+}
+
+
+
+#clipboard-download h1 {
+    font-size: 26px;
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+    margin-bottom: 20px;
+}
+
+
+
+#clipboard-download p {
+    font-weight: 400;
+    color: hsl(201, 11%, 66%);
+    line-height: 27px;
+}
+
+
+#clipboard-download nav {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    gap: 28px;
+}
+
+#clipboard-download nav button {
+    font-size: 17.3px;
+    border-radius: 90px;
+    padding-top: 18px;
+    padding-bottom: 13px;
+    color: rgba(255, 255, 255, 0.773);
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+
+#clipboard-download {
+    margin-bottom: 170px;
+    margin-left: 26px;
+    margin-right: 26px;
+}
+
+
+#contact-us {
+    background-color: rgba(245, 246, 248, 255);
+    color: hsl(201, 11%, 66%);
+}
+
+
+#contact-us img[alt="logo"] {
+    width: 56px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+
+#contact-us p {
+    font-weight: 400;
+    color: rgba(88, 91, 96, 255);
+    font-size: 18px;
+    line-height: 49px;
+}
+
+
+#contact-us div {
+    padding-bottom: 50px;
+}
+
+
+#contact-us nav {
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    padding-bottom: 55px;
+}
+
+@media screen and (min-width:375px) {
+    body p {
+        font-size: 16.6px;
+    }
+
+    header div {
+        margin-left: 28px;
+        margin-right: 28px;
+    }
+
+    main {
+        margin-left: 28px;
+        margin-right: 28px;
+    }
+
+    #clipboard-download {
+        margin-left: 28px;
+        margin-right: 28px;
+    }
+
+    #features article h1 {
+        font-size: 24.8px;
+    }
+}
+
+
+@media screen and (min-width:412px) {
+    header h1 {
+        font-size: 36px;
+    }
+
+    body p {
+        font-size: 18.5px;
+        line-height: 32px;
+    }
+
+    header div {
+        margin-left: 32px;
+        margin-right: 32px;
+    }
+
+    #hero-section nav button {
+        font-size: 19px;
+        padding-top: 18px;
+        padding-bottom: 14px;
+        margin-left: 6px;
+        margin-right: 6px;
+    }
+
+    main {
+        margin-left: 32px;
+        margin-right: 32px;
+    }
+
+    #clipboard-download {
+        margin-left: 32px;
+        margin-right: 32px;
+    }
+
+    #tracks h1 {
+        font-size: 28px;
+    }
+
+
+    #tracks article h1 {
+        font-size: 25px;
+    }
+
+    #features div h1 {
+        font-size: 28px;
+    }
+
+    #features article h1 {
+        font-size: 29px;
+    }
+
+    #clipboard-download h1 {
+        font-size: 30px;
+    }
+
+    #clipboard-download nav button {
+        font-size: 19px;
+        padding-top: 18px;
+        padding-bottom: 14px;
+        margin-left: 7px;
+        margin-right: 7px;
+    }
+
+    #contact-us p {
+        font-size: 19px;
+    }
+
+    #contact-us nav {
+        gap: 50px;
+        padding-bottom: 60px;
+    }
+}
+
+
+@media screen and (min-width:768px) {
+
+
+    header {
+        background-image: url(images/bg-header-desktop.png);
+    }
+
+
+    header img[alt="logo"] {
+        padding-top: 120px;
+        width: 14%;
+    }
+
+    #hero-section nav {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    #hero-section nav button {
+        width: 240px;
+    }
+
+
+    #tracks aside {
+        display: flex;
+        gap: 20px;
+    }
+
+    #tracks nav img {
+        text-align: start;
+        width: 100%;
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    #tracks article {
+        margin-top: 50px;
+        text-align: start;
+    }
+
+    #tracks article h1 {
+        font-size: 20px;
+    }
+
+    #features nav img {
+        width: 90%;
+    }
+
+    #clipboard-download nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    #clipboard-download nav button {
+        width: 230px;
+    }
+
+}
+
+
+@media screen and (min-width:1024px) {
+    header img[alt="logo"] {
+        width: 110px;
+    }
+
+
+    header div h1 {
+        font-size: 35px;
+        margin-top: 45px;
+        margin-bottom: 15px;
+    }
+
+
+    #hero-section p {
+        width: 600px;
+        margin: 0 auto;
+        font-size: 18.5px;
+    }
+
+    #tracks div h1 {
+        font-size: 30px;
+    }
+
+    #tracks div p {
+        width: 670px;
+        margin: 0 auto;
+        font-size: 18px;
+    }
+
+    #tracks article p {
+
+        width: 370px;
+        font-size: 17px;
+        margin-right: 10px;
+    }
+
+    #tracks aside nav {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    #tracks aside nav img {
+        width: 115%;
+    }
+
+    #tracks aside {
+        gap: 40px;
+    }
+
+
+    #tracks aside div h1 {
+        font-size: 20px;
+        margin-top: 35px;
+    }
+
+    #features div h1 {
+        font-size: 30px;
+    }
+
+    #features div p {
+        width: 685px;
+        margin: 0 auto;
+        font-size: 18px;
+    }
+
+    #features nav img {
+        width: 75%;
+    }
+
+    #features article {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    #features article p {
+        font-size: 16px;
+        width: 330px;
+    }
+
+    #features article h1 {
+        font-size: 22px;
+    }
+
+    #logos nav {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #clipboard-download h1 {
+        font-size: 30px;
+    }
+
+    #clipboard-download p {
+        font-size: 18px;
+        width: 685px;
+        margin: 0 auto;
+    }
+
+    #contact-us {
+        display: flex;
+        gap: 60px;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    #contact-us div {
+        display: flex;
+        gap: 50px;
+        padding-bottom: 0;
+    }
+
+    #contact-us nav {
+        padding-bottom: 0;
+        gap: 25px;
+    }
+
+    #contact-us img[alt="logo"] {
+        padding-top: 20px;
+        margin-right: 20px;
+        text-align: center;
+    }
+
+
+    #contact-us div article {
+        text-align: start;
+    }
+
+
+    #contact-us p {
+        font-size: 17px;
+    }
+
+
+    button:hover {
+        cursor: pointer;
+    }
+
+
+    #contact-us :hover {
+        color: hsl(171, 66%, 44%);
+        cursor: pointer;
+    }
+
+    img[alt="facebook"]:hover {
+        color: hsl(171, 66%, 44%);
+        cursor: pointer;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    #tracks aside {
+        gap: 70px;
+    }
+
+    #tracks article {
+        margin-top: 70px;
+    }
+
+    #tracks aside nav img {
+        margin-left: -55px;
+    }
+
+    header div h1 {
+        font-size: 38px;
+    }
+
+    #features article {
+        gap: 30px;
+    }
+
+
+    #features article h1 {
+        font-size: 23px;
+    }
+
+    #features article p {
+        font-size: 16.5px;
+    }
+
+    #contact-us img[alt="logo"] {
+        margin-right: 70px;
+    }
+}
